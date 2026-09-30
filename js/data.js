@@ -4,9 +4,9 @@ const book = { id: "BOOK-001", title: "Libro piloto StoryScape" };
 
 const sections = [
   { id: "SEC-01", title: "La semilla viajera" },
-  { id: "SEC-02", title: "El faro de las ballenas" },
   { id: "SEC-03", title: "La biblioteca escondida" },
-  { id: "SEC-04", title: "Los pájaros de papel" }
+  { id: "SEC-04", title: "Los pájaros de papel" },
+  { id: "SEC-02", title: "El faro de las ballenas" }
 ];
 
 const students = [
@@ -45,22 +45,22 @@ const sessions = [
   { id: "SES-001", studentId: "EST-001", bookId: "BOOK-001", sectionId: "SEC-01", status: "FINALIZADA", finalizedAt: "2026-09-05T09:10:00", literalScore: 78, inferentialScore: 68, globalScore: 73 },
   { id: "SES-002", studentId: "EST-001", bookId: "BOOK-001", sectionId: "SEC-03", status: "FINALIZADA", finalizedAt: "2026-09-11T10:15:00", literalScore: 82, inferentialScore: 76, globalScore: 79 },
   { id: "SES-003", studentId: "EST-001", bookId: "BOOK-001", sectionId: "SEC-04", status: "FINALIZADA", finalizedAt: "2026-09-17T11:05:00", literalScore: 88, inferentialScore: 80, globalScore: 84 },
-  { id: "SES-004", studentId: "EST-001", bookId: "BOOK-001", sectionId: "SEC-01", status: "FINALIZADA", finalizedAt: "2026-09-24T10:40:00", literalScore: 90, inferentialScore: 84, globalScore: 87 },
+  { id: "SES-004", studentId: "EST-001", bookId: "BOOK-001", sectionId: "SEC-04", status: "FINALIZADA", finalizedAt: "2026-09-24T10:40:00", literalScore: 90, inferentialScore: 84, globalScore: 87 },
   { id: "SES-005", studentId: "EST-001", bookId: "BOOK-001", sectionId: "SEC-02", status: "FINALIZADA", finalizedAt: "2026-09-30T11:20:00", literalScore: 80, inferentialScore: 75, globalScore: 78 },
   { id: "SES-006", studentId: "EST-002", bookId: "BOOK-001", sectionId: "SEC-01", status: "FINALIZADA", finalizedAt: "2026-09-08T09:35:00", literalScore: 70, inferentialScore: 64, globalScore: 67 },
-  { id: "SES-007", studentId: "EST-002", bookId: "BOOK-001", sectionId: "SEC-04", status: "FINALIZADA", finalizedAt: "2026-09-18T12:15:00", literalScore: 74, inferentialScore: 70, globalScore: 72 },
+  { id: "SES-007", studentId: "EST-002", bookId: "BOOK-001", sectionId: "SEC-03", status: "FINALIZADA", finalizedAt: "2026-09-18T12:15:00", literalScore: 74, inferentialScore: 70, globalScore: 72 },
   { id: "SES-008", studentId: "EST-002", bookId: "BOOK-001", sectionId: "SEC-03", status: "FINALIZADA", finalizedAt: "2026-09-29T10:10:00", literalScore: 80, inferentialScore: 72, globalScore: 76 },
-  { id: "SES-009", studentId: "EST-003", bookId: "BOOK-001", sectionId: "SEC-01", status: "FINALIZADA", finalizedAt: "2026-09-09T11:30:00", literalScore: 84, inferentialScore: 76, globalScore: 80 },
-  { id: "SES-010", studentId: "EST-003", bookId: "BOOK-001", sectionId: "SEC-02", status: "FINALIZADA", finalizedAt: "2026-09-19T09:45:00", literalScore: 88, inferentialScore: 82, globalScore: 85 },
-  { id: "SES-011", studentId: "EST-003", bookId: "BOOK-001", sectionId: "SEC-03", status: "FINALIZADA", finalizedAt: "2026-09-27T11:50:00", literalScore: 92, inferentialScore: 86, globalScore: 89 },
+  { id: "SES-009", studentId: "EST-003", bookId: "BOOK-001", sectionId: "SEC-03", status: "FINALIZADA", finalizedAt: "2026-09-09T11:30:00", literalScore: 84, inferentialScore: 76, globalScore: 80 },
+  { id: "SES-010", studentId: "EST-003", bookId: "BOOK-001", sectionId: "SEC-04", status: "FINALIZADA", finalizedAt: "2026-09-19T09:45:00", literalScore: 88, inferentialScore: 82, globalScore: 85 },
+  { id: "SES-011", studentId: "EST-003", bookId: "BOOK-001", sectionId: "SEC-02", status: "FINALIZADA", finalizedAt: "2026-09-27T11:50:00", literalScore: 92, inferentialScore: 86, globalScore: 89 },
   { id: "SES-012", studentId: "EST-004", bookId: "BOOK-001", sectionId: "SEC-01", status: "FINALIZADA", finalizedAt: "2026-09-10T10:05:00", literalScore: 68, inferentialScore: 60, globalScore: 64 },
-  { id: "SES-013", studentId: "EST-004", bookId: "BOOK-001", sectionId: "SEC-04", status: "FINALIZADA", finalizedAt: "2026-09-26T09:25:00", literalScore: 76, inferentialScore: 68, globalScore: 72 },
-  { id: "SES-014", studentId: "EST-005", bookId: "BOOK-001", sectionId: "SEC-01", status: "FINALIZADA", finalizedAt: "2026-09-12T11:10:00", literalScore: 80, inferentialScore: 72, globalScore: 76 },
-  { id: "SES-015", studentId: "EST-005", bookId: "BOOK-001", sectionId: "SEC-02", status: "FINALIZADA", finalizedAt: "2026-09-25T10:20:00", literalScore: 86, inferentialScore: 78, globalScore: 82 },
+  { id: "SES-013", studentId: "EST-004", bookId: "BOOK-001", sectionId: "SEC-03", status: "FINALIZADA", finalizedAt: "2026-09-26T09:25:00", literalScore: 76, inferentialScore: 68, globalScore: 72 },
+  { id: "SES-014", studentId: "EST-005", bookId: "BOOK-001", sectionId: "SEC-03", status: "FINALIZADA", finalizedAt: "2026-09-12T11:10:00", literalScore: 80, inferentialScore: 72, globalScore: 76 },
+  { id: "SES-015", studentId: "EST-005", bookId: "BOOK-001", sectionId: "SEC-04", status: "FINALIZADA", finalizedAt: "2026-09-25T10:20:00", literalScore: 86, inferentialScore: 78, globalScore: 82 },
   { id: "SES-016", studentId: "EST-006", bookId: "BOOK-001", sectionId: "SEC-01", status: "FINALIZADA", finalizedAt: "2026-09-13T09:50:00", literalScore: 72, inferentialScore: 62, globalScore: 67 },
   { id: "SES-017", studentId: "EST-006", bookId: "BOOK-001", sectionId: "SEC-03", status: "FINALIZADA", finalizedAt: "2026-09-23T11:35:00", literalScore: 78, inferentialScore: 70, globalScore: 74 },
-  { id: "SES-018", studentId: "EST-007", bookId: "BOOK-001", sectionId: "SEC-02", status: "FINALIZADA", finalizedAt: "2026-09-15T10:55:00", literalScore: 82, inferentialScore: 74, globalScore: 78 },
-  { id: "SES-019", studentId: "EST-007", bookId: "BOOK-001", sectionId: "SEC-04", status: "FINALIZADA", finalizedAt: "2026-09-28T09:15:00", literalScore: 88, inferentialScore: 82, globalScore: 85 },
+  { id: "SES-018", studentId: "EST-007", bookId: "BOOK-001", sectionId: "SEC-04", status: "FINALIZADA", finalizedAt: "2026-09-15T10:55:00", literalScore: 82, inferentialScore: 74, globalScore: 78 },
+  { id: "SES-019", studentId: "EST-007", bookId: "BOOK-001", sectionId: "SEC-02", status: "FINALIZADA", finalizedAt: "2026-09-28T09:15:00", literalScore: 88, inferentialScore: 82, globalScore: 85 },
   { id: "SES-020", studentId: "EST-008", bookId: "BOOK-001", sectionId: "SEC-01", status: "FINALIZADA", finalizedAt: "2026-09-16T12:05:00", literalScore: 74, inferentialScore: 66, globalScore: 70 },
   { id: "SES-021", studentId: "EST-008", bookId: "BOOK-001", sectionId: "SEC-03", status: "FINALIZADA", finalizedAt: "2026-09-22T10:30:00", literalScore: 80, inferentialScore: 74, globalScore: 77 }
 ];
